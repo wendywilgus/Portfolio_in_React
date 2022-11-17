@@ -7,6 +7,7 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
+import '../src/stylesheets/home.css';
 
 function App() {
   return (
