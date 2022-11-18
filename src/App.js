@@ -8,6 +8,8 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import '../src/stylesheets/home.css';
+import '../src/stylesheets/header-footer.css';
+import About from './pages/About';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
          <BrowserRouter>
          
            <Route path='/' exact component={Home}/>
+           <Route path='/about' exact component={About}/>
            <Route path='/portfolio' exact component={Portfolio}/>
            <Route path='/resume' exact component={Resume}/>
            <Route path='/contact' exact component={Contact}/>
