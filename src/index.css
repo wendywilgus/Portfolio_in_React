@@ -38,3 +38,34 @@ code {
   box-shadow:  27px 27px 53px #0b052a,
               -27px -27px 53px #2d15a6;
 }
+.n-box2{
+  border-radius: 50px;
+  background: #89b5bd;
+  box-shadow:  8px 8px 0px #618186,
+             -8px -8px 0px #b1e9f4;
+}
+.headshot{
+  height: 300px;
+  border-radius: 25px;
+  object-fit: fill;
+}
+.femaleDev{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.femaleDev2{
+  height: 200px;
+  border-radius: 25px;
+}
+.devstack{
+  color: black;
+  transition: all 0.5s;
+  padding: 10px;
+}
+.devstack:hover{
+  color: white;
+  background-color: #b1e9f4;
+  transform: scale(1.05);
+  box-shadow: none;
+}
