@@ -1,5 +1,5 @@
 .menu-icon{
-    color: purple;
+    color: #800080f7;
     font-size: 50px;
     margin: 20px;
     z-index: 2;
@@ -76,6 +76,7 @@ ul a{
         border-bottom-left-radius: 50%;
         border-top-left-radius: 50%;
         border-left: 2px solid rgba(255, 255, 255, 0.242);
+        z-index: 2;
     }
     .hide-header{
         color: white;

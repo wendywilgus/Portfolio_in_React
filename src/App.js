@@ -10,6 +10,7 @@ import Portfolio from './pages/Portfolio';
 import '../src/stylesheets/home.css';
 import '../src/stylesheets/header-footer.css';
 import '../src/stylesheets/carousel.css';
+import '../src/stylesheets/portfolio-resume.css'
 
 
 function App() {

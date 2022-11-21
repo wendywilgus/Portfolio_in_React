@@ -1,0 +1,64 @@
+.portfolio-intro .primary-button{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+.portfolio-list{
+    overflow: hidden;
+}
+.portfolio{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.77);
+    border-radius: 10px;
+    margin-top: 50px;
+    animation: portfolio-animation 10s linear infinite;
+}
+.portfolio-image{
+    height: 200px;
+    width: 300px;  
+    align-items: center;
+}
+.portfolio:hover{
+    animation-play-state: paused;
+}
+.portfolio:hover > .portfolio-content {
+    opacity: 1;
+    transform: scale(1.08);
+    cursor: pointer; 
+}
+.portfolio-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.686);
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+    
+}
+
+@keyframes portfolio-animation {
+    0%{
+        transform: rotate(-5deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
