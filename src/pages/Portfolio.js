@@ -43,7 +43,7 @@ function Portfolio() {
                       <h3>{Portfolio.title}</h3>
                       <hr />
                       <p>{Portfolio.description}</p>
-                      <button className='primary-button'>DEMO</button>
+                      <button className='primary-button'><a href={Portfolio.link}>DEMO</a></button>
 
                     </div>
                   </div>

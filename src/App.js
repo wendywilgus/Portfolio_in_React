@@ -3,7 +3,6 @@ import * as React from 'react';
 import './App.css';
 import { Route, BrowserRouter } from 'react-router-dom';
 import Resume from './pages/Resume';
-import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
@@ -26,8 +25,7 @@ function App() {
            <Route path='/' exact component={Home}/>
            <Route path='/portfolio' exact component={Portfolio}/>
            <Route path='/resume' exact component={Resume}/>
-           <Route path='/contact' exact component={Contact}/>
-         
+                    
          </BrowserRouter>
 
          <Footer/>

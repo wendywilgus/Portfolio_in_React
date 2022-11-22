@@ -15,7 +15,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgba(88, 51, 173, 0.632);
+    background-color: rgba(88, 51, 173, 0.92);
     height: 40vh;
     width: 30%;
     border-bottom-left-radius: 60%;
@@ -84,13 +84,14 @@ input , textarea{
     text-align: center;
     color: white;
 }
-.footer-icons svg{
-    color: white;
+.footer-icons{
+    color: white !important;
+    height: 25px;
+    width: 25px;
 }
-
-    
+   
 .footer-icons:hover{
-    color: #b1e9f4;
+    color: #07a9c9;
     transform: scale(1.2);
     cursor: pointer;
 }

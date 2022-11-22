@@ -60,12 +60,6 @@ const portfolio = [
     link: "https://github.com/wendywilgus/Password-Generator",
     },
     {
-    title: "Horizeon",
-    image: "./horiseon.png",
-    description: "Practice with HTML & CSS",
-    link: "https://github.com/wendywilgus/Horiseon-Challenge",
-    },
-    {
     title: "Study Guide",
     image: "./studyguide.png",
     description: "A place to review important notes and to practice using basic coding",

@@ -12,19 +12,21 @@ function Footer() {
             
             <div className="row justify-content-center footer-content">
                 <div className="col-md-6">
-                    <div className="div">
-                        <p>Designed and Developed by</p>
+                    <div className="div font-bold">
+                        <p>CONTACT ME</p>
                         <hr />
 
-                        <div className="d-flex justify-content-between">
-                            <FaLinkedinIn className="footer-icons" />
-                            <FaGithub className="footer-icons"/>
-                            <AiOutlineMail className="footer-icons"/>
+                        <div className="d-flex justify-content-around">
+                            <a href="https://www.linkedin.com/in/wendy-wilgus-750b00a1/"><FaLinkedinIn className="footer-icons"/></a>
+                            <a href="https://github.com/wendywilgus"><FaGithub className="footer-icons"/></a>
+                            <a href='mailto:wilguswendy@gmail.com'><AiOutlineMail className="footer-icons"/> </a>
+			
+		
                         </div>
                         <hr />
-
+                        
                         <br />
-                        <p>Wendy Wilgus</p>
+                        <p className="font-bold">Designed & Developed by Wendy Wilgus 2022</p>
                     </div>
                 </div>
             </div>

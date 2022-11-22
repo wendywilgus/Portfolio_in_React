@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 
+
+
 function Contact() {
     return (
       <div>
@@ -15,7 +17,7 @@ function Contact() {
 
               <input type="text" className='form-control' placeholder='Name' />
               <input type="text" className='form-control' placeholder='Email' />
-              <textarea className='form-control' placeholder='Description' />
+              <textarea className='form-control' placeholder='Message' />
               <br />
               <button className='primary-button '>Submit</button>
             </div>

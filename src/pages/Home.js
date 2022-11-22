@@ -87,7 +87,7 @@ function Home() {
 
 				<div className="row">
 					<div className="col-md-4">
-						<div className="font-bold">
+						<div className="font-bold text-center">
 							<h3 >Languages</h3>
 							<hr />
 							<p>HTML5</p>
@@ -109,7 +109,7 @@ function Home() {
 					</div>
 
           <div className="col-md-4">
-						<div className="font-bold text-end">
+						<div className="font-bold text-center">
 							<h3 className="font-bold">Tools</h3>
 							<hr />
 							<p>jQuery</p>
