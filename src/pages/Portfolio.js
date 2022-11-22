@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header';
 import {FaLaptopCode} from 'react-icons/fa';
 import portfolioData from './PortfolioData';
+import { createPortal } from 'react-dom';
 
 
 function Portfolio() {
@@ -10,11 +11,11 @@ function Portfolio() {
         <Header />
         <div className="container portfolio-intro">
           <div className="row flex-width-center mt-5">
-            <div className="col-md-6 n-box2 h-100 px-3 py-5">
+            <div className="col-md-6 n-box2 h-100 px-3 py-5" data-aos='fade-down'>
               <div>
                 <h1 className="font-bold">Portfolio</h1>
                 <p className="font-bold">Take a look at some of the projects I have completed using front-end and back-end technologies.</p>
-                <button className="primary-button">Get Started</button>
+                <button className="primary-button portfolio-btn"><a href="#portfolio-list" className='white'>Get Started</a></button>
               </div>
             </div>
 
@@ -32,7 +33,7 @@ function Portfolio() {
           <h3 className='font-bold'>My Projects</h3>
           <hr />
 
-          <div className='row'>
+          <div className='row' id="portfolio-list">
 
               {portfolioData.map(Portfolio => {
                 return <div className='col-md-4'>

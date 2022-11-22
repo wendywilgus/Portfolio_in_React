@@ -12,13 +12,13 @@ function Home() {
 				style={{ backgroundImage: `url('./splash.jpg')` }}
 			>
 				<div>
-					<h1>Wendy Wilgus</h1>
+					<h1 data-aos='fade-up'>Wendy Wilgus</h1>
 
 					<div className="intro-content d-flex justify-content-between">
 						<p>
 							Full Stack Developer <br /> MERN Stack
 						</p>
-						<button className="primary-button font-bold">Find Out More</button>
+						<button  className="primary-button font-bold"><a href="#carousel">Find Out More</a></button>
 					</div>
 				</div>
 			</div>

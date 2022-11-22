@@ -1,7 +1,10 @@
 .portfolio-intro .primary-button{
     background-color: #800080f7;
-    color: white;
+    color: white !important;
     font-weight: bold;
+}
+.portfolio-btn a{
+    color: white !important;
 }
 .portfolio-list{
     overflow: hidden;
