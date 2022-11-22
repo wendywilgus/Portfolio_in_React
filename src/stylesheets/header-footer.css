@@ -57,6 +57,43 @@ ul a{
     color: cyan;
     font-weight: bold;
 }
+input , textarea{
+    margin-top: 25px;
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow:  8px 8px 0px #618186,
+             -8px -8px 0px #b1e9f4 !important;
+}
+.form-control:focus{
+    transform: scale(1.02);
+}
+.form-control{
+    box-shadow: none;
+}
+.contact{
+    padding-top: 50px;
+}
+.contact button{
+    background-color: #800080f7;
+    color: white;
+    font-weight: bold;
+
+}
+.footer-content{
+    background-color: #0b052a;
+    text-align: center;
+    color: white;
+}
+.footer-icons svg{
+    color: white;
+}
+
+    
+.footer-icons:hover{
+    color: #b1e9f4;
+    transform: scale(1.2);
+    cursor: pointer;
+}
 @media(max-width:750px) {
     .show-header{
         color: white;
@@ -68,7 +105,7 @@ ul a{
         position: fixed;
         top: 0;
         right: 0;
-        background-color: rgba(88, 51, 173, 0.797);
+        background-color: rgba(#800080f7);
         height: 100vh;
         width: 100%;
         overflow: hidden;
@@ -94,7 +131,10 @@ ul a{
         transition: all 0s;
     }
     .menu-icon{
-        color: purple;
+        color: #800080f7;
         font-size: 40px;
-        }
+    }
+    .contact{
+        margin-top: 0;
+    }
 }

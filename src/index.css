@@ -65,7 +65,7 @@ code {
 }
 .devstack:hover{
   color: white;
-  background-color: #2d15a6;
+  background-color: #800080f7;
   transform: scale(1.05);
   box-shadow: none;
 }
