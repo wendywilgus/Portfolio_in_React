@@ -4,7 +4,7 @@ import {DiMysql, DiMongodb} from 'react-icons/di';
 
 function Carousel() {
     return (
-        <div>
+        <div className="bg-black">
             
             <div className="carousel-parent position-relative" id="carousel">
                 <h1 className="position-absolute top-0 start-0 end-0 text-center">Skills & Technologies</h1>
@@ -32,7 +32,10 @@ function Carousel() {
                         <DiMongodb color='green' />
                     </span>
                 </div>
+
             </div>
+
+            
         </div>
     ) 
 }

@@ -45,9 +45,14 @@ code {
              -8px -8px 0px #b1e9f4;
 }
 .headshot{
-  height: 300px;
   border-radius: 25px;
-  object-fit: fill;
+  max-width: 100%; 
+  max-height: 100%;
+  border-radius: 12px;
+  padding: 3px;
+  margin-right: 10px;
+  align-items: center;
+  overflow: hidden;
 }
 .femaleDev{
   display: flex;

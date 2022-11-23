@@ -28,6 +28,7 @@
     text-decoration: none;
     color: #800080f7;
 }
+
 @media(max-width: 750px){
     .introduction div h1{
         color: rgba(255, 255, 255, 0.671);

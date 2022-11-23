@@ -4,7 +4,9 @@ import './App.css';
 import { Route, BrowserRouter } from 'react-router-dom';
 import Resume from './pages/Resume';
 import Home from './pages/Home';
+import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import '../src/stylesheets/home.css';
 import '../src/stylesheets/header-footer.css';
@@ -23,9 +25,10 @@ function App() {
          <BrowserRouter>
          
            <Route path='/' exact component={Home}/>
+           <Route path='/about' exact component={About}/>
            <Route path='/portfolio' exact component={Portfolio}/>
            <Route path='/resume' exact component={Resume}/>
-                    
+           <Route path='/contact' exact component={Contact}/>         
          </BrowserRouter>
 
          <Footer/>

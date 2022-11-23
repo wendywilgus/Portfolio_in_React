@@ -38,12 +38,12 @@ function Portfolio() {
               {portfolioData.map(Portfolio => {
                 return <div className='col-md-4'>
                   <div className='portfolio position-relative '>
-                    <img className="portfolio-image" src={Portfolio.image} />
+                    <img className="portfolio-image " src={Portfolio.image} style={{ background: "cover" }}/>
                     <div className='portfolio-content'>
-                      <h3>{Portfolio.title}</h3>
-                      <hr />
+                      <h5>{Portfolio.title}</h5>
                       <p>{Portfolio.description}</p>
-                      <button className='primary-button'><a href={Portfolio.link}>DEMO</a></button>
+                      <button className='primary-button'><a href={Portfolio.code}>Code</a></button>
+                      <button className='primary-button'><a href={Portfolio.demo}>Demo</a></button>
 
                     </div>
                   </div>
