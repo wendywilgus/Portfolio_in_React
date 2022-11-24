@@ -21,7 +21,7 @@ To install, download the git repo zip file. Run `npm i`. Once all packages are f
 
 Site is deployed here: 
 
-![Splash page should look like this upon loading](./images/splash.jpg)
+![Splash page should look like this upon loading](../images/splash.jpg)
 
 
 
