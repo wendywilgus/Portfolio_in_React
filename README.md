@@ -19,7 +19,7 @@ To install, download the git repo zip file. Run `npm i`. Once all packages are f
 
 ## Usage
 
-Site is deployed here: 
+Site is deployed here: https://wendywilgus.github.io/Portfolio_in_React/
 
 ![Splash page should look like this upon loading](../src/images/splash.jpg)
 
