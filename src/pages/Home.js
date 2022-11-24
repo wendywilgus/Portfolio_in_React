@@ -1,16 +1,17 @@
 import React from "react";
 import Carousel from "../components/Carousel";
 import Header from "../components/Header";
+import femaleDev from "../images/femaleDev.svg"
+
+
 
 function Home() {
 	return (
 		<div>
 			<Header />
 
-			<div
-				className="introduction flex-with-center"
-				style={{ backgroundImage: `url('./splash.jpg')` }}
-			>
+			<div className="introduction flex-with-center">
+				
 				<div>
 					<h1 data-aos='fade-up'>Wendy Wilgus</h1>
 
@@ -39,7 +40,7 @@ function Home() {
 				<h2 className="font-bold text-center">My Development Stack</h2>
         <div className="femaleDev">
           <img
-            src="./femaleDev.svg"
+            src={femaleDev}
             alt="cartoon image of woman coding"
             className="femaleDev2"
           />

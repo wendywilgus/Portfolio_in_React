@@ -1,11 +1,12 @@
-import React from 'react';
-import Header from '../components/Header';
+import React from "react";
+import Header from "../components/Header";
+import me from "./../images/meBW.png";
 
 function About() {
-    return (
-      <div>
-        <Header />
-        <div className="container mt-10">
+	return (
+		<div>
+			<Header />
+			<div className="container mt-10">
 				<div className="row justify-content-start">
 					<div className="col-md-4">
 						<div className="n-box2 p-5 font-bold mt-5  " data-aos="fade-right">
@@ -23,11 +24,7 @@ function About() {
 			<div className="row pt-5 justify-content-center">
 				<div className="col-md-4">
 					<div className="n-box2 p-5" data-aos="fade-up">
-						<img
-							src="./meBW.png"
-							alt="photo of developer"
-							className="headshot"
-						/>
+						<img src={me} alt="photo of developer" className="headshot" />
 					</div>
 				</div>
 			</div>
@@ -43,9 +40,8 @@ function About() {
 					</div>
 				</div>
 			</div>
+		</div>
+	);
+}
 
-      </div>
-    );
-  }
-  
-  export default About;
+export default About;
