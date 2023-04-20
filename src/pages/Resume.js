@@ -7,7 +7,7 @@ function Resume() {
         <Header />
         <div class="container mt-5">
           <h2>Resume</h2>
-          <button  className="primary-button font-bold"><a href="">View as PDF</a></button>
+          <button  className="primary-button font-bold"><a href="https://drive.google.com/file/d/1KxLjJmy7MSVR4WJKD2QHyLyIBH0ZHds6/view?usp=sharing">View as PDF</a></button>
           <hr />
           <h3>Profile</h3>
             <div>                    
@@ -16,7 +16,7 @@ function Resume() {
                 </div>  
                 <div class="col-md-8">
                   <p>
-                  <strong>Team-minded Full-Stack Developer</strong> certified through Georgia Tech Institute with a background in Education. Excited to use my problem-solving, analytical,  and communication skills to work in a collaborative environment focused on building amazing applications through responsive web design.
+                  <strong>Team-minded professional software engineer </strong> specializing in software development, web development, full-stack MERN development,  JavaScript and ReactJS. A proven track record of using problem-solving, analytical,  and communication skills to work in a collaborative environment focused on building amazing applications through responsive web design.
                   </p>
                 </div>
               </div>                 
@@ -28,6 +28,16 @@ function Resume() {
           <h3>Experience</h3>
           <br />
           <div class="row">
+            <div class="col-md-4">
+                  <h5>Change Your Story Inc.</h5>
+                  <p>April 2023</p>
+              </div>
+              <div class="col-md-8">
+                <p>
+                  <strong>Website developed using WordPress</strong> during volunteer event for 48in48.  Also contributed to the team utilizing Figma for design planning, WordPress for development, as well as editing and build stages. Participated after event to complete additional Q/A and final tasks on additional websites for other nonprofits. 
+                </p>
+              </div>
+            
             <div class="col-md-4">
               <h5>Social Network API</h5>
               <p>November 2022</p>
@@ -45,7 +55,7 @@ function Resume() {
             </div>
             <div class="col-md-8">
               <p>
-                <strong>Two server-side APIs</strong>were used to create an interactive application that call datas to produce a list of movies as well as details about each. 
+                <strong>Two server-side APIs</strong>were used to create an interactive application that call data to produce a list of movies as well as details about each. 
                 Both the browser and feature are dynamically updated with HTML and CSS.  Additionally, we used local storage to allow a user to create a watch list.  This project was created in a group using Agile methodology. We utilized  Github to plan and track our project, working on branches and merging to main project.
               </p>
             </div>
@@ -96,7 +106,7 @@ function Resume() {
             <div>      
               <div class="row">
                 <div class="col-md-4">
-                  <h5>Georgia Tech Institute of Technolog</h5>
+                  <h5>Georgia Institute of Technology</h5>
                   <p>Atlanta, GA <br />
                     December 2022			</p>
                 </div>
