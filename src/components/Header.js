@@ -26,7 +26,7 @@ function Header() {
 			<ul className={`${showHeader ? "show-header" : "hide-header"} n-box1`}>
 				<li
 					className={`${
-						(path === "/" || path === "/Portfolio_in_React") && "active"
+						(path === "/" || path === "/Portfolio_in_React/") && "active"
 					}`}
 				>
 					<Link to="/">Home</Link>

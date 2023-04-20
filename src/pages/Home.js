@@ -64,9 +64,10 @@ function Home() {
 						<div className="font-bold text-center">
 							<h3 >Applications</h3>
 							<hr />
+							<p>WordPress</p>
 							<p>Github</p>
-              <p>MySQL</p>
-              <p>MongoDB</p>
+							<p>MySQL</p>
+							<p>MongoDB</p>
 						</div>
 					</div>
 
